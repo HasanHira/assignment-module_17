@@ -46,17 +46,3 @@ Questions:
 Submission Instruction :
 
 Make sure to write your answers and code snippets in a pdf file and submit your github repository link.
-
-
-
-
-1. 2
-2. 2
-3. 2
-4. 4
-5. 1
-6. 1
-7. 1
-8. 1
-9. 1
-10. 3
