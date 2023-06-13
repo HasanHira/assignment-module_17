@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Task: 1:
+// Answer include in pdf
+
 // Task: 2:
 Route::get('/', [AssignmentController::class, 'ExcerptDes']);
 
@@ -25,3 +28,33 @@ Route::get('/firstrecord', [AssignmentController::class, 'FirstRecord']);
 
 // Task: 5:
 Route::get('/posts-des', [AssignmentController::class, 'DesFromPost']);
+
+// Task: 6:
+// Answer include in pdf
+
+// Task: 7:
+Route::get('/posts-title', [AssignmentController::class, 'PostTitle']);
+
+// Task: 8:
+Route::get('/insert-new', [AssignmentController::class, 'InsertNew']);
+
+// Task: 9:
+Route::get('/updatedata', [AssignmentController::class, 'UpdateData']);
+
+// Task: 10:
+Route::get('/deletedata', [AssignmentController::class, 'DeleteData']);
+
+// Task: 11:
+// Answer include in pdf
+
+// Task: 12:
+// Answer include in pdf
+
+// Task: 13:
+// Answer include in pdf
+
+// Task: 14:
+Route::get('/minsread', [AssignmentController::class, 'MinutesRead']);
+
+// Task: 15:
+Route::get('/incrementreadtime', [AssignmentController::class, 'IncReadTime']);

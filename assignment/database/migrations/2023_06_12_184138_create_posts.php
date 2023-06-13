@@ -17,9 +17,8 @@ return new class extends Migration
             $table->string('slug', 300)->unique();
             $table->text('excerpt');
             $table->longText('description');
-            $table->string('authorName', 200);
             $table->boolean('is_published')->default(false);
-            $table->integer('minute_to_read')->nullable();
+            $table->integer('min_to_read')->nullable();
             $table->longText('comments')->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
